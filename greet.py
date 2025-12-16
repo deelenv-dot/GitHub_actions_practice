@@ -1,5 +1,5 @@
-def sum(a: int, b: int) -> int:
-    """Return the sum of two integers."""
+def multiply(a: int, b: int) -> int:
+    """Return the product of two integers."""
     return a * b
 
 
@@ -11,5 +11,5 @@ def greet(name: str) -> str:
 if __name__ == "__main__":
    
     x, y = 2, 3
-    print(f"{x} + {y} = {sum(x, y)}")
+    print(f"{x} * {y} = {multiply(x, y)}")
     print(greet("GitHub Workflows"))
